@@ -8,7 +8,7 @@ Getting and Cleaning Data: Course Project
 
 The original study files are in the "UCI HAR Dataset folder" will be downloaded from the original website, not from this repository.
 
-Below is the script included in the .R file:
+Below is the script included in the .R file with commentary on how it works:
 
 ### ---
 ### This code was developed for the Course Project of "Getting and Cleaning Data" of the John's Hopkins Univiersity's Coursera Data Science Specialization. It is intended for a peer graded assignment.
