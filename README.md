@@ -19,7 +19,7 @@ Below is the script included in the .R file with commentary on how it works:
 ### Data source URL: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 ### ---
 
-# Download required library for table functions to work
+## Download required library for table functions to work
 suppressPackageStartupMessages({
         library(data.table)
 })
