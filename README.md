@@ -1,4 +1,4 @@
-# TidyData
+# TidyData README
 Getting and Cleaning Data: Course Project
 
 1. Codebook.md describes the variables.
@@ -10,15 +10,16 @@ The original study files are in the "UCI HAR Dataset folder" will be downloaded 
 
 Below is the script included in the .R file:
 
-# ---
-# This code was developed for the Course Project of "Getting and Cleaning Data" of the John's Hopkins Univiersity's Coursera Data Science Specialization. It is intended for a peer graded assignment.
-# Author of code: Carlos Salazar Boychev.
-# Credits of original research and source files: Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013. 
-# "R version 4.0.1 (2020-06-06)"
-# Libraries required: data.table.
-# Data source URL: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-# ---
+### ---
+### This code was developed for the Course Project of "Getting and Cleaning Data" of the John's Hopkins Univiersity's Coursera Data Science Specialization. It is intended for a peer graded assignment.
+### Author of code: Carlos Salazar Boychev.
+### Credits of original research and source files: Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013. 
+### "R version 4.0.1 (2020-06-06)"
+### Libraries required: data.table.
+### Data source URL: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+### ---
 
+# Download required library for table functions to work
 suppressPackageStartupMessages({
         library(data.table)
 })
